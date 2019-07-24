@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica de HTML</title>
+  
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <nav class="nav">
+        <ul id="menu" class="nav-lista">
+            <li><a class="nav-uno" href="#section-uno">Conocenos</a></li>
+            <li><a class="nav-dos" href="#section-dos">Games</a></li>
+            <li><a class="nav-tres" href="#section-tres">Tienda</a></li>
+            <li class="nav-cuatro"><a  href="#section-cuatro">Contactanos</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Ilustraciones para tu pagina.</h1>
+    </header>
+    <section id="section-uno" >
+        <div class="section uno">
+            <h2>Creamos tus Animaciones</h2>
+            <img src="./img/ai-video_1000x494.jpg.img.jpg" alt="">       
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellat perspiciatis necessitatibus! Ullam totam veritatis hic. Facere, dolores quia suscipit cupiditate soluta numquam commodi laboriosam at repudiandae illum rem pariatur!</p>
+            <button class="btn">Click</button>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <section id="section-dos">
+        <div class="section dos">
+            <h2>Animamos tus Juegos</h2>
+            <img src="./img/e829a54335296503ca064537ae365feb9922c058.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ex sapiente pariatur ea corrupti voluptas? Neque, praesentium? Cumque nulla odit, commodi recusandae ad unde, aperiam dolorem, numquam eaque quos inventore.</p>
+            <button class="btn">Click</button>
+            <div class="clear"></div>
+        </div>
+    </section >
+    <section id="section-tres">
+        <div class="section tres">
+            <h2>Podes comprar nuestros Productos</h2>
+            <img src="./img/27028e72151295_5bddb7e9c1bb1.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero fugit iste assumenda cum quos aspernatur omnis sint porro molestias sed reprehenderit voluptatem, inventore aut ipsa vel repellat totam, optio tempora.</p>
+            <button class="btn">Click</button>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <section id="section-cuatro">
+        <div class="section cuatro">
+            <h2>Contactanos</h2>
+            <form action="index.html" method="POST">
+                <fieldset >
+                    <legend>Ingrese sus datos</legend>
+                    <label for="nombre">
+                        Nombre: <br>
+                        <input type="text" id="nombre" name="nombre_usuario">
+                    </label>
+                    <br><br>
+                    <label for="apellido">
+                        Apellido: <br>
+                        <input type="text" id="apellido" name="apellido_usuario">
+                    </label>
+                    <br><br>
+                    <label for="telefono">
+                        Numero de telefono: <br>
+                        <input type="tel" id="telefono" name="telefono_usuario" pattern="[0-9]{4}-[0-9]{4}" placeholder=" 1111-1111">
+                    </label>
+                    <br><br>
+                    <label for="emaile">
+                        Email: <br>
+                        <input type="email" id="emaile" name="emaile_usuario" placeholder="  email@gmail.com" >
+                    </label>
+                    <br><br>
+                    <label for="localidad">
+                        Localidad: <br><select name="localidad_usuario" id="localidad">
+                            <option value="lanus">Lanus</option>
+                            <option value="banfield">Banfield</option>
+                            <option value="lomasDeZamora">Lomas de Zamora</option>
+                            <option value="avellaneda">Avellaneda</option>
+                            <option value="temperley">Temperley</option>
+                        </select>
+                    </label>
+                    <br><br>
+                    
+                    <input type="submit" class="btn">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <button id="boton" class="menu-button" >🍕</button>
+    <script src="./index.js"></script>
+</body>
+</html>
